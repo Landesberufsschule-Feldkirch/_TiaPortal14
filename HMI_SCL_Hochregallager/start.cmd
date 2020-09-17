@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\Hochregallager
+cd h:\TiaPortal14\Hochregallager
 start Hochregallager.ap14

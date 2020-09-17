@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\Schrittmotor
+cd h:\TiaPortal14\Schrittmotor
 start Schrittmotor.ap14

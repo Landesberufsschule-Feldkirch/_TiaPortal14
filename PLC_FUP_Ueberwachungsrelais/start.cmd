@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\UeberwachungsRelais
+cd h:\TiaPortal14\UeberwachungsRelais
 start UeberwachungsRelais.ap14

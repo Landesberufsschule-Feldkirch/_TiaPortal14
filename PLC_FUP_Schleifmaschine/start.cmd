@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\Schleifmaschine
+cd h:\TiaPortal14\Schleifmaschine
 start Schleifmaschine.ap14

@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\LeitungszuordnungsTester
+cd h:\TiaPortal14\LeitungszuordnungsTester
 start LeitungszuordnungsTester.ap14

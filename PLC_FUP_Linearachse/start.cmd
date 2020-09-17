@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\Linearachse
+cd h:\TiaPortal14\Linearachse
 start Linearachse.ap14

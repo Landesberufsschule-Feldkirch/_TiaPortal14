@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\AbfuellanlageDigitalTwin
+cd h:\TiaPortal14\AbfuellanlageDigitalTwin
 start AbfuellanlageDigitalTwin.ap14

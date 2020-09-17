@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\Hochbehaelter
+cd h:\TiaPortal14\Hochbehaelter
 start Hochbehaelter.ap14

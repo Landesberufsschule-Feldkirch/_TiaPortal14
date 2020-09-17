@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\Hydaulikaggregat
+cd h:\TiaPortal14\Hydaulikaggregat
 start Hydaulikaggregat.ap14

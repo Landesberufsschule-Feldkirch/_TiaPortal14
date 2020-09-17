@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\TemperaturRegelstrecke
+cd h:\TiaPortal14\TemperaturRegelstrecke
 start TemperaturRegelstrecke.ap14

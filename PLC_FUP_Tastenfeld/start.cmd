@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\Tasterfeld
+cd h:\TiaPortal14\Tasterfeld
 start Tasterfeld.ap14

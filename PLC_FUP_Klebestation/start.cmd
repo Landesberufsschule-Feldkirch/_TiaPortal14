@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\Klebestation
+cd h:\TiaPortal14\Klebestation
 start Klebestation.ap14

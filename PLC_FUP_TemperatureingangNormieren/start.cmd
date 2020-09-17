@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\TemperatureingangNormieren
+cd h:\TiaPortal14\TemperatureingangNormieren
 start TemperatureingangNormieren.ap14

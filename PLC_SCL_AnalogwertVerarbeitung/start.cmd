@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\AnalogwertVerarbeitung
+cd h:\TiaPortal14\AnalogwertVerarbeitung
 start AnalogwertVerarbeitung.ap14

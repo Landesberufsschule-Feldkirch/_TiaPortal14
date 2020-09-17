@@ -1,3 +1,3 @@
 h:
-cd h:\TiaPortal_V14\HochbehaelterDigitalTwin
+cd h:\TiaPortal14\HochbehaelterDigitalTwin
 start HochbehaelterDigitalTwin.ap14

@@ -1,4 +1,4 @@
 h:
-cd h:\TiaPortal_V14\LAP_2010_3_Ofentuersteuerung
+cd h:\TiaPortal14\LAP_2010_3_Ofentuersteuerung
 start LAP_2010_3_Ofentuersteuerung.ap14
 start LAP_2010_3_Ofentuersteuerung.exe
