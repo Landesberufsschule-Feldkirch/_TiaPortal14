@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="Getriebemotor" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.02.2021 18:00:48">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Hochrüsten gestartet" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.02.2021 18:00:51" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.02.2021 18:00:51">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.02.2021 18:00:52" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.02.2021 18:00:52">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.02.2021 18:00:53" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="14.02.2021 18:01:26">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC_1\ProgramBlocksFolder\Main' - Prüfsummeninkonsistenz für 'General; Event'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="14.02.2021 18:01:27">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC_1\ProgramBlocksFolder\Startup' - Prüfsummeninkonsistenz für 'General; Event'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="14.02.2021 18:01:29">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC_1\ProgramBlocksFolder\DatenRangieren' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="14.02.2021 18:01:29">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC_1\ProgramBlocksFolder\DeleteMe' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="14.02.2021 18:01:29">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC_1\ProgramBlocksFolder\VersionInput' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="14.02.2021 18:01:29">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC_1\ProgramBlocksFolder\DigInput' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="14.02.2021 18:01:29">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC_1\ProgramBlocksFolder\DigOutput' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="14.02.2021 18:01:29">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC_1\ProgramBlocksFolder\AnInput' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="14.02.2021 18:01:29">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Projektelement: '\PLC_1\ProgramBlocksFolder\AnOutput' - Prüfsummeninkonsistenz für 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.02.2021 18:01:31">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Die Querverweisinformationen werden konvertiert." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.02.2021 18:01:33">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Die Querverweisinformationen wurden erfolgreich erstellt" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.02.2021 18:01:33">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Das Konvertieren der Querverweisinformationen ist beendet." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.02.2021 18:01:33" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7BSW.V14.0.1.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.02.2021 18:01:33" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:14.00.01.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.02.2021 18:01:33" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:14.00.01.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="14.02.2021 18:01:34">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Projekt '\\vmware-host\Shared Folders\K\git\_TiaPortal14\TEST_SCL_Labor_Getriebemotor\Getriebemotor\System\PEData.plf' wurde erfolgreich hochgerüstet und gespeichert als Projekt '\\vmware-host\Shared Folders\K\git\_TiaPortal14\TEST_SCL_Labor_Getriebemotor\Getriebemotor_V16\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.02.2021 18:01:34">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="FinalCheckRemainingErrors" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.02.2021 18:01:34" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+</LogFile>
