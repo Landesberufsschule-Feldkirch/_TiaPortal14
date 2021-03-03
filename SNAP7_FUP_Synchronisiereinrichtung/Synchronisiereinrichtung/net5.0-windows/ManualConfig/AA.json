@@ -1,0 +1,28 @@
+﻿{
+  "AnalogeAusgaenge": [
+    {
+      "LaufendeNr": 0,
+      "StartByte": 0,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "MinimalWert": 0,
+      "MaximalWert": 100,
+      "Schrittweite": 1, 
+      "Type": "SiemensAnalogwertSchieberegler",
+      "Bezeichnung": "Y",
+      "Kommentar": "Ventilöffnung 0-100%"
+    },
+    {
+      "LaufendeNr": 1,
+      "StartByte": 2,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "MinimalWert": 0,
+      "MaximalWert": 10,
+      "Schrittweite": 0.1,
+      "Type": "SiemensAnalogwertSchieberegler",
+      "Bezeichnung": "Ie",
+      "Kommentar": "Erregerstrom 0-10A"
+    }
+  ]
+}

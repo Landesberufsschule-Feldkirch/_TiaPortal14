@@ -1,0 +1,98 @@
+﻿{
+  "AnalogeEingaenge": [
+    {
+      "LaufendeNr": 0,
+      "StartByte": 0,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "n",
+      "Kommentar": "Drehzahl"
+    },
+    {
+      "LaufendeNr": 1,
+      "StartByte": 2,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "Ug",
+      "Kommentar": "Generatorspannung"
+    },
+    {
+      "LaufendeNr": 2,
+      "StartByte": 4,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "fg",
+      "Kommentar": "Generatorfrequenz"
+    },
+    {
+      "LaufendeNr": 3,
+      "StartByte": 6,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "Pg",
+      "Kommentar": "Generatorleistung"
+    },
+    {
+      "LaufendeNr": 4,
+      "StartByte": 8,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "φg ",
+      "Kommentar": "Generator"
+    },
+
+
+    {
+      "LaufendeNr": 5,
+      "StartByte": 10,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "Un",
+      "Kommentar": "Netzspannung"
+    },
+    {
+      "LaufendeNr": 6,
+      "StartByte": 12,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "fn",
+      "Kommentar": "Netzfrequenz"
+    },
+    {
+      "LaufendeNr": 7,
+      "StartByte": 14,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "Pn",
+      "Kommentar": "Netzleistung"
+    },
+    {
+      "LaufendeNr": 8,
+      "StartByte": 16,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "φn",
+      "Kommentar": "Netzleistungsfaktor"
+    },
+
+
+    {
+      "LaufendeNr": 9,
+      "StartByte": 18,
+      "StartBit": 0,
+      "AnzahlBit": 16,
+      "Type": "SiemensAnalogwertProzent",
+      "Bezeichnung": "Udiff",
+      "Kommentar": "Generator/Netz Spannungsdifferenz"
+    }
+  ]
+}

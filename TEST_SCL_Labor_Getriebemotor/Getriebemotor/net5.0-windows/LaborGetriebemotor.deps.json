@@ -1,0 +1,143 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LaborGetriebemotor/1.0.0": {
+        "dependencies": {
+          "DisplayPlc": "1.0.0",
+          "Kommunikation": "1.0.0",
+          "ManualMode": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "TestAutomat": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "LaborGetriebemotor.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "DisplayPlc/1.0.0": {
+        "dependencies": {
+          "Kommunikation": "1.0.0",
+          "ManualMode": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "PlcDatenTypen": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "DisplayPlc.dll": {}
+        }
+      },
+      "Kommunikation/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Kommunikation.dll": {}
+        }
+      },
+      "ManualMode/1.0.0": {
+        "dependencies": {
+          "Kommunikation": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "ManualMode.dll": {}
+        }
+      },
+      "PlcDatenTypen/1.0.0": {
+        "runtime": {
+          "PlcDatenTypen.dll": {}
+        }
+      },
+      "SoftCircuits.Silk/1.0.4": {
+        "runtime": {
+          "Silk.dll": {}
+        }
+      },
+      "TestAutomat/1.0.0": {
+        "dependencies": {
+          "DisplayPlc": "1.0.0",
+          "Kommunikation": "1.0.0",
+          "ManualMode": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "PlcDatenTypen": "1.0.0",
+          "SoftCircuits.Silk": "1.0.4",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "TestAutomat.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "PlcDatenTypen": "1.0.0"
+        },
+        "runtime": {
+          "Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LaborGetriebemotor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "DisplayPlc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kommunikation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManualMode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlcDatenTypen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoftCircuits.Silk/1.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestAutomat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

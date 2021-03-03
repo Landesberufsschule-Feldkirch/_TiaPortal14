@@ -1,0 +1,193 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Synchronisiereinrichtung/1.0.0": {
+        "dependencies": {
+          "GaugeControl": "1.0.0",
+          "Kommunikation": "1.0.0",
+          "ManualMode": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "ScottPlot.WPF": "4.0.45",
+          "Stateless": "5.1.5",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Synchronisiereinrichtung.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "ScottPlot/4.0.45": {
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ScottPlot.dll": {
+            "assemblyVersion": "4.0.45.0",
+            "fileVersion": "4.0.45.0"
+          }
+        }
+      },
+      "ScottPlot.WPF/4.0.45": {
+        "dependencies": {
+          "ScottPlot": "4.0.45",
+          "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/ScottPlot.WPF.dll": {
+            "assemblyVersion": "4.0.45.0",
+            "fileVersion": "4.0.45.0"
+          }
+        }
+      },
+      "Stateless/5.1.5": {
+        "runtime": {
+          "lib/netstandard2.0/Stateless.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "5.1.5.0"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        }
+      },
+      "GaugeControl/1.0.0": {
+        "runtime": {
+          "GaugeControl.dll": {}
+        }
+      },
+      "Kommunikation/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Kommunikation.dll": {}
+        }
+      },
+      "ManualMode/1.0.0": {
+        "dependencies": {
+          "Kommunikation": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "ManualMode.dll": {}
+        }
+      },
+      "PlcDatenTypen/1.0.0": {
+        "runtime": {
+          "PlcDatenTypen.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "PlcDatenTypen": "1.0.0"
+        },
+        "runtime": {
+          "Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Synchronisiereinrichtung/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "ScottPlot/4.0.45": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gskmo1D9mN84rWAESm+YZqbcEcRu4L3rh902ojyBRq18vrzKw2TCJI3aluuTS1E5IbyAAvXpjJpD17jLZ8UtOg==",
+      "path": "scottplot/4.0.45",
+      "hashPath": "scottplot.4.0.45.nupkg.sha512"
+    },
+    "ScottPlot.WPF/4.0.45": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-72AWTjXGEAs90nJwjS83okov8f268ht2y+h7y8ch/HJD3IXMtYaGRPeHtuGaiVm0tUrr+/xLeIz4kuAX/p313Q==",
+      "path": "scottplot.wpf/4.0.45",
+      "hashPath": "scottplot.wpf.4.0.45.nupkg.sha512"
+    },
+    "Stateless/5.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Pmy/vn1LkKr4MjunyCJXTW8sv8yc1FO+jLY2ltZaOz4W1Sin8C4NIbaF9w+LMkZDZSSsAxsA+A4a9x5oemUAw==",
+      "path": "stateless/5.1.5",
+      "hashPath": "stateless.5.1.5.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "GaugeControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kommunikation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManualMode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlcDatenTypen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
