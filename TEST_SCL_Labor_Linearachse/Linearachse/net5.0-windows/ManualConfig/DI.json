@@ -6,8 +6,8 @@
       "StartBit": 0,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "S1",
-      "Kommentar": "Taster ( ⓪ ) → Öffner"
+      "Bezeichnung": "B1",
+      "Kommentar": "Linearachse Endlage links → Öffner"
     },
     {
       "LaufendeNr": 1,
@@ -15,8 +15,8 @@
       "StartBit": 1,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "S2",
-      "Kommentar": "Taster ( ① ) → Schliesser"
+      "Bezeichnung": "B2",
+      "Kommentar": "Linearachse Endlage rechts → Öffner"
     },
     {
       "LaufendeNr": 2,
@@ -24,8 +24,8 @@
       "StartBit": 2,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "S4",
-      "Kommentar": "Taster ( STOP ) → Öffner"
+      "Bezeichnung": "S2",
+      "Kommentar": "Taster ( ⓪ ) → Öffner"
     },
     {
       "LaufendeNr": 3,
@@ -33,8 +33,8 @@
       "StartBit": 3,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "S3",
-      "Kommentar": "Taster ( Ⅰ ) → Schliesser"
+      "Bezeichnung": "S1",
+      "Kommentar": "Taster ( ① ) → Schliesser "
     },
     {
       "LaufendeNr": 4,
@@ -42,17 +42,17 @@
       "StartBit": 4,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "S5",
+      "Bezeichnung": "S4",
       "Kommentar": "Taster ( Ⅱ ) → Schliesser"
     },
-   {
+    {
       "LaufendeNr": 5,
       "StartByte": 0,
       "StartBit": 5,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "S7",
-      "Kommentar": "Taster (STOP) → Öffner"
+      "Bezeichnung": "S3",
+      "Kommentar": "Taster ( ① ) → Schliesser "
     },
     {
       "LaufendeNr": 6,
@@ -61,7 +61,7 @@
       "AnzahlBit": 1,
       "Type": "Default",
       "Bezeichnung": "S6",
-      "Kommentar": "Taster (←) → Schliesser"
+      "Kommentar": "Taster ( ↓ ) → Schliesser"
     },
     {
       "LaufendeNr": 7,
@@ -69,8 +69,8 @@
       "StartBit": 7,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "S8",
-      "Kommentar": "Taster (→) → Schliesser"
+      "Bezeichnung": "S5",
+      "Kommentar": "Taster ( ↑ ) → Schliesser"
     },
     {
       "LaufendeNr": 8,
@@ -78,8 +78,8 @@
       "StartBit": 0,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "S9.1",
-      "Kommentar": "Not-Halt → Schliesser"
+      "Bezeichnung": "S8",
+      "Kommentar": "Taster ( － ) → Schliesser"
     },
     {
       "LaufendeNr": 9,
@@ -87,8 +87,8 @@
       "StartBit": 1,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "S9.2",
-      "Kommentar": " Not-Halt → Öffner"
+      "Bezeichnung": "S7",
+      "Kommentar": "Taster ( + ) → Schliesser"
     },
     {
       "LaufendeNr": 10,
@@ -96,8 +96,8 @@
       "StartBit": 2,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "B1",
-      "Kommentar": "Lichtschranke 0°"
+      "Bezeichnung": "S9",
+      "Kommentar": "Taster ( STOP ) → Öffner"
     },
     {
       "LaufendeNr": 11,
@@ -105,8 +105,17 @@
       "StartBit": 3,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "B2",
-      "Kommentar": "Lichtschranke 45° CCW"
+      "Bezeichnung": "S10",
+      "Kommentar": " Not-Halt → Öffner"
+    },
+    {
+      "LaufendeNr": 12,
+      "StartByte": 1,
+      "StartBit": 4,
+      "AnzahlBit": 1,
+      "Type": "Default",
+      "Bezeichnung": "S11",
+      "Kommentar": "Not-Halt → Schliesser"
     }
   ]
 }

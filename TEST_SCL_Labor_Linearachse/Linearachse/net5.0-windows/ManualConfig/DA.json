@@ -7,7 +7,7 @@
       "AnzahlBit": 1,
       "Type": "Default",
       "Bezeichnung": "Q1",
-      "Kommentar": "Getriebemotor Schnell Rechtslauf"
+      "Kommentar": "Linearachse Rechtslauf "
     },
     {
       "LaufendeNr": 1,
@@ -16,7 +16,7 @@
       "AnzahlBit": 1,
       "Type": "Default",
       "Bezeichnung": "Q2",
-      "Kommentar": "Getriebemotor Linkslauf"
+      "Kommentar": "Linearachse Linkslauf "
     },
     {
       "LaufendeNr": 2,
@@ -24,8 +24,8 @@
       "StartBit": 2,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "Q3",
-      "Kommentar": "Getriebemotor Langsam Rechtslauf"
+      "Bezeichnung": "P1",
+      "Kommentar": "Meldeleuchte im Taster S1/S2 (weiß) "
     },
     {
       "LaufendeNr": 3,
@@ -33,8 +33,8 @@
       "StartBit": 3,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "-",
-      "Kommentar": "Reserve - nicht belegt "
+      "Bezeichnung": "P2",
+      "Kommentar": "Meldeleuchte weiß"
     },
     {
       "LaufendeNr": 4,
@@ -42,8 +42,8 @@
       "StartBit": 4,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "P1",
-      "Kommentar": "Meldeleuchte weiß"
+      "Bezeichnung": "P3",
+      "Kommentar": "Meldeleuchte rot"
     },
     {
       "LaufendeNr": 5,
@@ -51,17 +51,8 @@
       "StartBit": 5,
       "AnzahlBit": 1,
       "Type": "Default",
-      "Bezeichnung": "P2",
+      "Bezeichnung": "P4",
       "Kommentar": "Meldeleuchte grün"
-    },
-    {
-      "LaufendeNr": 6,
-      "StartByte": 0,
-      "StartBit": 6,
-      "AnzahlBit": 1,
-      "Type": "Default",
-      "Bezeichnung": "P3",
-      "Kommentar": "Meldeleuchte rot"
     }
   ]
 }
