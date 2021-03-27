@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "Blinker/1.0.0": {
         "dependencies": {
+          "ConfigPlc": "1.0.0",
           "Kommunikation": "1.0.0",
-          "ManualMode": "1.0.0",
           "ScottPlot.WPF": "4.0.42"
         },
         "runtime": {
@@ -59,21 +59,21 @@
           "Microsoft.Win32.SystemEvents": "4.7.0"
         }
       },
+      "ConfigPlc/1.0.0": {
+        "dependencies": {
+          "Kommunikation": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "ConfigPlc.dll": {}
+        }
+      },
       "Kommunikation/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "Kommunikation.dll": {}
-        }
-      },
-      "ManualMode/1.0.0": {
-        "dependencies": {
-          "Kommunikation": "1.0.0",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "ManualMode.dll": {}
         }
       }
     }
@@ -126,12 +126,12 @@
       "path": "system.drawing.common/4.7.0",
       "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
     },
-    "Kommunikation/1.0.0": {
+    "ConfigPlc/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ManualMode/1.0.0": {
+    "Kommunikation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
