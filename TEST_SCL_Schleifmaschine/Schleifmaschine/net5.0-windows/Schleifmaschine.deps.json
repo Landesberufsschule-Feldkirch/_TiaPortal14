@@ -1,0 +1,229 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Schleifmaschine/1.0.0": {
+        "dependencies": {
+          "ConfigPlc": "1.0.0",
+          "DisplayPlc": "1.0.0",
+          "Kommunikation": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "TestAutomat": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Schleifmaschine.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "ScottPlot/4.0.48": {
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ScottPlot.dll": {
+            "assemblyVersion": "4.0.48.0",
+            "fileVersion": "4.0.48.0"
+          }
+        }
+      },
+      "ScottPlot.WPF/4.0.48": {
+        "dependencies": {
+          "ScottPlot": "4.0.48",
+          "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/ScottPlot.WPF.dll": {
+            "assemblyVersion": "4.0.48.0",
+            "fileVersion": "4.0.48.0"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        }
+      },
+      "BeschriftungPlc/1.0.0": {
+        "dependencies": {
+          "Kommunikation": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "BeschriftungPlc.dll": {}
+        }
+      },
+      "ConfigPlc/1.0.0": {
+        "dependencies": {
+          "Kommunikation": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "ConfigPlc.dll": {}
+        }
+      },
+      "DisplayPlc/1.0.0": {
+        "dependencies": {
+          "BeschriftungPlc": "1.0.0",
+          "ConfigPlc": "1.0.0",
+          "Kommunikation": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "PlcDatenTypen": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "DisplayPlc.dll": {}
+        }
+      },
+      "Kommunikation/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Kommunikation.dll": {}
+        }
+      },
+      "PlcDatenTypen/1.0.0": {
+        "runtime": {
+          "PlcDatenTypen.dll": {}
+        }
+      },
+      "SoftCircuits.Silk/1.0.4": {
+        "runtime": {
+          "Silk.dll": {}
+        }
+      },
+      "TestAutomat/1.0.0": {
+        "dependencies": {
+          "ConfigPlc": "1.0.0",
+          "DisplayPlc": "1.0.0",
+          "Kommunikation": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "PlcDatenTypen": "1.0.0",
+          "ScottPlot.WPF": "4.0.48",
+          "SoftCircuits.Silk": "1.0.4",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "TestAutomat.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "PlcDatenTypen": "1.0.0"
+        },
+        "runtime": {
+          "Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Schleifmaschine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "ScottPlot/4.0.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w6um9lUlTFVzvlxN9efZJDnXWAorcbnp4tFILf2chL5nAboaY91x9xjothim5PATOmF+KDwSBuE0us4Vm/+i9Q==",
+      "path": "scottplot/4.0.48",
+      "hashPath": "scottplot.4.0.48.nupkg.sha512"
+    },
+    "ScottPlot.WPF/4.0.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Flzs02BcSf9XTwDw7aq3T9ZuGWgbIvMWVeCVhMqIZdP9DIvxROMIgxyM1fmlqC58AJjyS6/VpaTzv/P10Ki6bw==",
+      "path": "scottplot.wpf/4.0.48",
+      "hashPath": "scottplot.wpf.4.0.48.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "BeschriftungPlc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConfigPlc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DisplayPlc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kommunikation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlcDatenTypen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoftCircuits.Silk/1.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestAutomat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<title>Projekt</title>
+	<style>
+		h1 {
+			font-family: arial, sans-serif;
+			text-align: center;
+			padding: 1em;
+			border: 3px solid black;
+			background-color: #E0E0E0;
+			display: inline-block;
+		}
+
+		.text_schwarz {
+			font-family: arial, sans-serif;
+			font-size: 12pt;
+			font-weight: normal;
+			color: black;
+		}
+
+		td {
+			font-family: arial, sans-serif;
+			font-size: 16pt;
+			font-weight: normal;
+			color: black;
+		}
+
+		a {
+			font-family: arial, sans-serif;
+			font-size: 16pt;
+			font-weight: normal;
+			color: black;
+		}
+
+		.di {
+			font-family: arial, sans-serif;
+			background-color: rgb(243, 247, 129);
+		}
+
+		.dq {
+			font-family: arial, sans-serif;
+			background-color: rgb(169, 245, 225);
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Schleifmaschine (SCL) </h1>
+
+
+	<br><br>
+	<table style="width: 100%; height: 60px; background-color: cyan; text-align: center;">
+		<tr>
+			<td>
+				<a href="https://www.linderonline.at/fk/drucker.php?ID=418">&rarr; Aufgabenstellung</a>
+			</td>
+		</tr>
+	</table>
+	<br><br>
+
+	<img width="400px" src="https://www.linderonline.at/medien/image/lbs/lau/sr_labor/platte_linearantrieb.jpg" />
+
+	<br><br>
+
+	<table border="1" cellpadding="5">
+		<tr class="variablentabelle"> <td>SPS </td> <td>Kommentar					</td> </tr>
+		<tr class="di"> <td>DigInput.F1 </td> <td>Thermorelais langsame Drehzahl	</td> </tr>
+		<tr class="di">	<td>DigInput.F2 </td> <td>Thermorelais schnelle Drehzahl	</td> </tr>
+		<tr class="di">	<td>DigInput.S0 </td> <td>Taster ( 0 )						</td> </tr>
+		<tr class="di">	<td>DigInput.S1 </td> <td>Taster ( I )						</td> </tr>
+		<tr class="di">	<td>DigInput.S2 </td> <td>Taster ( Ⅱ )						</td> </tr>
+		<tr class="di">	<td>DigInput.S3 </td> <td>Not-Halt 							</td> </tr>
+		<tr class="di">	<td>DigInput.S4 </td> <td>Störung quittieren				</td> </tr>
+
+		<tr class="dq">	<td>DigOutput.P1 </td> <td>Meldeleuchte "Taster langsam" 	</td> </tr>
+		<tr class="dq">	<td>DigOutput.P2 </td> <td>Meldeleuchte "Taster schnell" 	</td> </tr>
+		<tr class="dq">	<td>DigOutput.P3 </td> <td>Meldeleuchte "Störung" 			</td> </tr>
+		<tr class="dq">	<td>DigOutput.Q1 </td> <td>Schleifmaschine Langsam			</td> </tr>
+		<tr class="dq">	<td>DigOutput.Q2 </td> <td>Schleifmaschine Schnell			</td> </tr>
+	</table>
+
+	<br><br>
+</body>
+
+</html>
