@@ -1,0 +1,20 @@
+ Datentr„ger in Laufwerk S: ist SNVFELAPL6_D
+ Volumeseriennummer: CE01-2D00
+
+ Verzeichnis von s:\Linder Kurt\_TiaPortal14
+
+23.03.2021  09:56    <DIR>          TEST_FUP_LAP__2010__1__Kompressoranlage
+23.03.2021  09:56    <DIR>          TEST_FUP_LAP__2010__2__Transportwagen
+23.03.2021  09:56    <DIR>          TEST_FUP_LAP__2010__3__Ofentuersteuerung
+23.03.2021  09:56    <DIR>          TEST_FUP_LAP__2010__4__Abfuellanlage
+23.03.2021  09:56    <DIR>          TEST_FUP_LAP__2010__5__Pumpensteuerung
+24.03.2021  10:17    <DIR>          TEST_FUP_LAP__2018__1__Silosteuerung
+24.03.2021  10:18    <DIR>          TEST_FUP_LAP__2018__2__Abfuellanlage
+24.03.2021  10:56    <DIR>          TEST_FUP_LAP__2018__3__Hydraulikaggregat
+24.03.2021  10:18    <DIR>          TEST_FUP_LAP__2018__4__Niveauregelung
+23.03.2021  16:31    <DIR>          TEST_FUP_LAP__2019__Foerderanlage
+15.09.2020  15:16    <DIR>          TEST_FUP_Nadeltelegraph
+19.01.2021  15:09    <DIR>          TEST_SCL_Labor_Getriebemotor
+02.03.2021  12:57    <DIR>          TEST_SCL_Labor_Linearachse
+               0 Datei(en),              0 Bytes
+              13 Verzeichnis(se),  1ÿ659ÿ035ÿ648 Bytes frei
