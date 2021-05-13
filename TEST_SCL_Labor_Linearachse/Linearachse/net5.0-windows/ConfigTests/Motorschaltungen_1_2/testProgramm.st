@@ -16,7 +16,7 @@ END_IF;
 
 IF NOT "DigInput".S2 OR NOT "DigInput".S9 THEN
     "DigOutput".P4 := FALSE;
-END_IF;
 
+END_IF;
 "DigOutput".P3 := NOT "DigInput".S9;
     
