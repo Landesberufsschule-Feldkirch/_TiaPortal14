@@ -10,6 +10,7 @@
         "dependencies": {
           "ConfigPlc": "1.0.0",
           "DisplayPlc": "1.0.0",
+          "GaugeControl": "1.0.0",
           "Kommunikation": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
           "TestAutomat": "1.0.0",
@@ -200,6 +201,11 @@
         },
         "runtime": {
           "DisplayPlc.dll": {}
+        }
+      },
+      "GaugeControl/1.0.0": {
+        "runtime": {
+          "GaugeControl.dll": {}
         }
       },
       "Kommunikation/1.0.0": {
@@ -425,6 +431,11 @@
       "sha512": ""
     },
     "DisplayPlc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GaugeControl/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
