@@ -57,7 +57,7 @@
 </head>
 
 <body>
-    <h1>Motorschaltungen 2 - 2.1 (Linearachse)</h1>
+    <h1>Motorschaltungen 3 - 3.1 (Linearachse)</h1>
     <br>
     <div class="text_schwarz">
     
@@ -69,27 +69,36 @@
     
     <br><br>    
 
-        Ein Drehstromasynchronmotor soll direkt geschaltet werden. Der Zyklus kann nicht abgebrochen werden.
-        <br>
-
-        <ul>
-            <li>Sobald der Taster ① gedrückt wird, leuchtet die grüne Kontrollleuchte</li>
-            <li>Der Motor läuft 2 Sekunden lang im RL</li>
-            <li>Danach reversiert er 2 Sekunden lang</li>
-            <li>Der Zyklus ist damit abgeschlossen und die grüne Kontrollleuchte erlischt</li>
-        </ul>
-
-        <br /><br />
-        Es werden keinerlei Störungen ausgewertet.
+ 	Ein Drehstromasynchronmotor soll direkt geschaltet werden.
+	<br>
+	<ul>
+		<li>Mit dem Taster ① wird die Anlage eingeschaltet. Dies wird durch die weiße Meldeleuchte angezeigt</li>		
+		<li>Nach dem Einschalten wird der Motor wie folgt betrieben: 
+			<ul>
+				<li>Der Motor läuft 2 Sekunden lang im RL </li>
+				<li>Der Motor stoppt für 1 Sekunde </li>
+				<li>Der Motor läuft wieder 2 Sekunden lang im LL</li>
+				<li>Der Motor stoppt für 1 Sekunde </li>
+				<li>Der Motor läuft wieder nach rechts, ... </li>
+			</ul>
+		</li>
+		
+	</ul>
+	<ul>
+		<li>Mit dem Taster ⓪ wird die Anlage ausgeschaltet.<br>
+		     Es wird der komplette Zyklus immer fertiggefahren</li>
+		<li>Für die Restdauer des Zyklus blinkt die weiße Meldleuchte mit 1Hz</li>
+	</ul>
+	<br><br> Es werden keinerlei Störungen ausgewertet.
 
         <br><br>
 
         <table>
-            <tr class="di"> <td>DigInput.S1 </td> <td>-S1 </td> <td>Taster Start ( ① )          </td> </tr>
-                
-            <tr class="dq"> <td>DigOutput.P4 </td> <td>-P4 </td> <td>Meldeleuchte grün          </td> </tr>
-            <tr class="dq"> <td>DigOutput.Q1 </td> <td>-Q1 </td> <td>Linearachse Rechtslauf     </td> </tr>
-            <tr class="dq"> <td>DigOutput.Q2 </td> <td>-Q2 </td> <td>Linearachse Linkslauf	    </td> </tr>
+          <tr class="di">    <td>DigInput.S1 </td>    <td>-S1 </td>     <td>Taster Start ( ① )      </td>  </tr>  
+          <tr class="di">    <td>DigInput.S2 </td>    <td>-S2 </td>     <td>Taster Stopp ( ⓪ )      </td>  </tr>
+          <tr class="dq">    <td>DigOutput.Q1 </td>   <td>-Q1 </td>     <td>Linearachse Rechtslauf  </td>  </tr>
+          <tr class="dq">    <td>DigOutput.Q2 </td>   <td>-Q2 </td>     <td>Linearachse Linkslauf   </td>  </tr>
+          <tr class="dq">    <td>DigOutput.P4 </td>    <td>-P4 </td>    <td>Meldeleuchte grün       </td>  </tr>
         </table>
     </div>
     <br><br>
