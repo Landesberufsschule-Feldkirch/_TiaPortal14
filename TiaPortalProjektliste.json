@@ -1,0 +1,65 @@
+﻿{
+    "PlcProjektliste": [
+        {
+            "LaufendeNummer": 0,
+            "Bezeichnung": "Getriebemotor",
+            "Kommentar": "Übungsplatte",
+            "SoftwareVersion": "TiaPortalV14Sp1",
+            "OrdnerProjekt": "PLC_FUP_Getriebemotor",
+            "OrdnerDigitalTwin":"",
+            "Sprache": "Fup",
+            "Kategorie": "Plc",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "ProjektKopieren",
+                "CmdDateiProjektStarten"
+            ]
+        },
+        {
+            "LaufendeNummer": 1,
+            "Bezeichnung": "Linearachse",
+            "Kommentar": "Übungsplatte",
+            "SoftwareVersion": "Logo8",
+            "OrdnerProjekt": "PLC_FUP_Linearachse",
+            "OrdnerDigitalTwin":"",
+            "Sprache": "Fup",
+            "Kategorie": "Plc",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "ProjektKopieren",
+                "CmdDateiProjektStarten"
+            ]
+        },
+        {
+            "LaufendeNummer": 2,
+            "Bezeichnung": "Linearachse",
+            "Kommentar": "Übungsplatte",
+            "SoftwareVersion": "Logo8",
+            "OrdnerProjekt": "PLC_KOP_Linearachse",
+            "OrdnerDigitalTwin":"",
+            "Sprache": "Kop",
+            "Kategorie": "Plc",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "ProjektKopieren",
+                "CmdDateiProjektStarten"
+            ]
+        },
+        {
+            "LaufendeNummer": 3,
+            "Bezeichnung": "Linearachse",
+            "Kommentar": "Übungsplatte",
+            "SoftwareVersion": "Logo8",
+            "OrdnerProjekt": "PLC_SCL_Linearachse",
+            "OrdnerDigitalTwin":"",
+            "Sprache": "Scl",
+            "Kategorie": "Plc",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "ProjektKopieren",
+                "CmdDateiProjektStarten"
+            ]
+        }
+
+    ]
+}
