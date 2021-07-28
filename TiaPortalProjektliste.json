@@ -6,7 +6,7 @@
             "Kommentar": "Übungsplatte",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "PLC_FUP_Getriebemotor",
-            "OrdnerDigitalTwin":"",
+            "OrdnerDigitalTwin": "",
             "Sprache": "Fup",
             "Kategorie": "Plc",
             "Jobs": [
@@ -19,9 +19,9 @@
             "LaufendeNummer": 1,
             "Bezeichnung": "Linearachse",
             "Kommentar": "Übungsplatte",
-            "SoftwareVersion": "Logo8",
+            "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "PLC_FUP_Linearachse",
-            "OrdnerDigitalTwin":"",
+            "OrdnerDigitalTwin": "",
             "Sprache": "Fup",
             "Kategorie": "Plc",
             "Jobs": [
@@ -34,9 +34,9 @@
             "LaufendeNummer": 2,
             "Bezeichnung": "Linearachse",
             "Kommentar": "Übungsplatte",
-            "SoftwareVersion": "Logo8",
+            "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "PLC_KOP_Linearachse",
-            "OrdnerDigitalTwin":"",
+            "OrdnerDigitalTwin": "",
             "Sprache": "Kop",
             "Kategorie": "Plc",
             "Jobs": [
@@ -49,9 +49,9 @@
             "LaufendeNummer": 3,
             "Bezeichnung": "Linearachse",
             "Kommentar": "Übungsplatte",
-            "SoftwareVersion": "Logo8",
+            "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "PLC_SCL_Linearachse",
-            "OrdnerDigitalTwin":"",
+            "OrdnerDigitalTwin": "",
             "Sprache": "Scl",
             "Kategorie": "Plc",
             "Jobs": [
@@ -59,7 +59,91 @@
                 "ProjektKopieren",
                 "CmdDateiProjektStarten"
             ]
+        },
+        {
+            "LaufendeNummer": 3,
+            "Bezeichnung": "LAP__2010__1__Kompressoranlage",
+            "Kommentar": "LAP",
+            "SoftwareVersion": "TiaPortalV14Sp1",
+            "OrdnerProjekt": "TEST_FUP_LAP__2010__1__Kompressoranlage",
+            "OrdnerDigitalTwin": "LAP_2010_1_Kompressoranlage",
+            "Sprache": "Fup",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "ProjektKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "CmdDateiDigitalTwinStarten"
+            ]
+        },
+        {
+            "LaufendeNummer": 3,
+            "Bezeichnung": "LAP__2010__2__Transportwagen",
+            "Kommentar": "LAP",
+            "SoftwareVersion": "TiaPortalV14Sp1",
+            "OrdnerProjekt": "TEST_FUP_LAP__2010__2__Transportwagen",
+            "OrdnerDigitalTwin": "LAP_2010_2_Transportwagen",
+            "Sprache": "Fup",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "ProjektKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "CmdDateiDigitalTwinStarten"
+            ]
+        },
+        {
+            "LaufendeNummer": 3,
+            "Bezeichnung": "LAP__2010__3__Ofentuersteuerung",
+            "Kommentar": "LAP",
+            "SoftwareVersion": "TiaPortalV14Sp1",
+            "OrdnerProjekt": "TEST_FUP_LAP__2010__3__Ofentuersteuerung",
+            "OrdnerDigitalTwin": "LAP_2010_3_Ofentuersteuerung",
+            "Sprache": "Fup",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "ProjektKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "CmdDateiDigitalTwinStarten"
+            ]
+        },
+        {
+            "LaufendeNummer": 3,
+            "Bezeichnung": "LAP__2010__4__Abfuellanlage",
+            "Kommentar": "LAP",
+            "SoftwareVersion": "TiaPortalV14Sp1",
+            "OrdnerProjekt": "TEST_FUP_LAP__2010__4__Abfuellanlage",
+            "OrdnerDigitalTwin": "LAP_2010_4_Abfuellanlage",
+            "Sprache": "Fup",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "ProjektKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "CmdDateiDigitalTwinStarten"
+            ]
+        },
+        {
+            "LaufendeNummer": 3,
+            "Bezeichnung": "LAP__2010__5__Pumpensteuerung",
+            "Kommentar": "LAP",
+            "SoftwareVersion": "TiaPortalV14Sp1",
+            "OrdnerProjekt": "TEST_FUP_LAP__2010__5__Pumpensteuerung",
+            "OrdnerDigitalTwin": "LAP_2010_5_Pumpensteuerung",
+            "Sprache": "Fup",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "ProjektKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "CmdDateiDigitalTwinStarten"
+            ]
         }
-
     ]
 }
