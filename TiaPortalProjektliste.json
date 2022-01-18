@@ -1,12 +1,12 @@
 ﻿{
     "PlcProjektliste": [
         {
-            "LaufendeNummer": 0,
             "Bezeichnung": "Getriebemotor",
             "Kommentar": "Übungsplatte",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "PLC_FUP_Getriebemotor",
             "OrdnerDigitalTwin": "",
+            "OrdnerFactoryIo": "",
             "Sprache": "Fup",
             "Kategorie": "Plc",
             "Jobs": [
@@ -16,12 +16,12 @@
             ]
         },
         {
-            "LaufendeNummer": 1,
             "Bezeichnung": "Linearachse",
             "Kommentar": "Übungsplatte",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "PLC_FUP_Linearachse",
             "OrdnerDigitalTwin": "",
+            "OrdnerFactoryIo": "",
             "Sprache": "Fup",
             "Kategorie": "Plc",
             "Jobs": [
@@ -31,12 +31,12 @@
             ]
         },
         {
-            "LaufendeNummer": 2,
             "Bezeichnung": "Linearachse",
             "Kommentar": "Übungsplatte",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "PLC_KOP_Linearachse",
             "OrdnerDigitalTwin": "",
+            "OrdnerFactoryIo": "",
             "Sprache": "Kop",
             "Kategorie": "Plc",
             "Jobs": [
@@ -46,12 +46,12 @@
             ]
         },
         {
-            "LaufendeNummer": 3,
             "Bezeichnung": "Linearachse",
             "Kommentar": "Übungsplatte",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "PLC_SCL_Linearachse",
             "OrdnerDigitalTwin": "",
+            "OrdnerFactoryIo": "",
             "Sprache": "Scl",
             "Kategorie": "Plc",
             "Jobs": [
@@ -61,12 +61,12 @@
             ]
         },
         {
-            "LaufendeNummer": 3,
             "Bezeichnung": "LAP__2010__1__Kompressoranlage",
             "Kommentar": "LAP",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "TEST_FUP_LAP__2010__1__Kompressoranlage",
             "OrdnerDigitalTwin": "LAP_2010_1_Kompressoranlage",
+            "OrdnerFactoryIo": "",
             "Sprache": "Fup",
             "Kategorie": "AutoTests",
             "Jobs": [
@@ -78,12 +78,12 @@
             ]
         },
         {
-            "LaufendeNummer": 3,
             "Bezeichnung": "LAP__2010__2__Transportwagen",
             "Kommentar": "LAP",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "TEST_FUP_LAP__2010__2__Transportwagen",
             "OrdnerDigitalTwin": "LAP_2010_2_Transportwagen",
+            "OrdnerFactoryIo": "",
             "Sprache": "Fup",
             "Kategorie": "AutoTests",
             "Jobs": [
@@ -95,12 +95,12 @@
             ]
         },
         {
-            "LaufendeNummer": 3,
             "Bezeichnung": "LAP__2010__3__Ofentuersteuerung",
             "Kommentar": "LAP",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "TEST_FUP_LAP__2010__3__Ofentuersteuerung",
             "OrdnerDigitalTwin": "LAP_2010_3_Ofentuersteuerung",
+            "OrdnerFactoryIo": "",
             "Sprache": "Fup",
             "Kategorie": "AutoTests",
             "Jobs": [
@@ -112,12 +112,12 @@
             ]
         },
         {
-            "LaufendeNummer": 3,
             "Bezeichnung": "LAP__2010__4__Abfuellanlage",
             "Kommentar": "LAP",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "TEST_FUP_LAP__2010__4__Abfuellanlage",
             "OrdnerDigitalTwin": "LAP_2010_4_Abfuellanlage",
+            "OrdnerFactoryIo": "",
             "Sprache": "Fup",
             "Kategorie": "AutoTests",
             "Jobs": [
@@ -129,12 +129,12 @@
             ]
         },
         {
-            "LaufendeNummer": 3,
             "Bezeichnung": "LAP__2010__5__Pumpensteuerung",
             "Kommentar": "LAP",
             "SoftwareVersion": "TiaPortalV14Sp1",
             "OrdnerProjekt": "TEST_FUP_LAP__2010__5__Pumpensteuerung",
             "OrdnerDigitalTwin": "LAP_2010_5_Pumpensteuerung",
+            "OrdnerFactoryIo": "",
             "Sprache": "Fup",
             "Kategorie": "AutoTests",
             "Jobs": [
